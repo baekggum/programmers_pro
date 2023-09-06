@@ -13,4 +13,5 @@ function solution(s){
     answer =  p_Num == y_Num;
     
     return answer;
+    //return s.toUpperCase().split("P").length === s.toUpperCase().split("Y").length;
 }
