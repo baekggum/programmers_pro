@@ -5,7 +5,6 @@ function solution(name, yearning, photo) {
     for(var i=0;i<name.length;i++)
         dict[name[i]]=yearning[i]
     
-    console.log(photo.length)
     for(var i=0;i<photo.length;i++){
         for(var j=0;j<photo[i].length;j++){
             if(dict[photo[i][j]]==undefined)
